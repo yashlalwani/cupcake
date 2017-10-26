@@ -6,10 +6,10 @@
 // Database tables won't be created until this file hasn't been configured properly.
 // You can make changes if you want for better understandibility and proper configuration.
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "codebanger";
+$servername = "servername/hostname";
+$username = "username";
+$password = "password";
+$dbname = "database name";
 
 // Create connection to the server's database
 $conn = mysqli_connect($servername, $username, $password, $dbname);
